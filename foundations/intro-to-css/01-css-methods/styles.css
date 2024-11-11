@@ -1,0 +1,33 @@
+/*External method*/
+/* `div`: a red background, white text, a font size of 32px, center aligned, and bold*/
+
+
+div {
+    color: white;
+    background-color: red;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+/*Internal method*/
+/* /*a green background, white text, and a font size of 18px*/
+
+/*
+    p {
+        color: white;
+        background-color: green;
+        font-size: 18px;
+    }
+*/
+
+/*in-line method*/
+/* `button`: inline an orange background and a font size of 18px */
+
+/*
+    button {
+        background-color: orange;
+        font-size: 18px;
+    }
+*/
