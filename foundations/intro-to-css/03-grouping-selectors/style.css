@@ -1,0 +1,46 @@
+/*
+- **The first element**: a black background and white text
+- **The second element**: a yellow background
+- **Both elements**: a font size of 28px and a list of fonts 
+    containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback
+
+*/
+
+/*first attempt, making one class for both and then one for each difference*/
+/*
+
+.both {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+.first {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.second {
+    background-color: rgb(255, 255, 0);
+}
+
+*/
+/*
+second attempt, making one joining both and then one for each
+this means less typing in the html file and almost the same amount in the css file
+*/
+
+/*easier to read when combining selectors to have one on each line*/
+.first, 
+.second {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.first {
+    background-color: black;
+    color: white;
+}
+
+.second {
+    background-color: yellow;
+}
